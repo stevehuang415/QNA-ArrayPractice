@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1936DC01237FE48B00F56D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936DC00237FE48B00F56D40 /* AppDelegate.swift */; };
 		1936DC03237FE48B00F56D40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936DC02237FE48B00F56D40 /* SceneDelegate.swift */; };
-		1936DC05237FE48B00F56D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936DC04237FE48B00F56D40 /* ViewController.swift */; };
 		1936DC08237FE48B00F56D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1936DC06237FE48B00F56D40 /* Main.storyboard */; };
 		1936DC0A237FE48E00F56D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1936DC09237FE48E00F56D40 /* Assets.xcassets */; };
 		1936DC0D237FE48E00F56D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1936DC0B237FE48E00F56D40 /* LaunchScreen.storyboard */; };
+		1936DC19237FE60000F56D40 /* Qna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936DC18237FE60000F56D40 /* Qna.swift */; };
+		1979BA5023816119002504C6 /* QnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979BA4F23816119002504C6 /* QnaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1936DBFD237FE48B00F56D40 /* QNA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1936DC00237FE48B00F56D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1936DC02237FE48B00F56D40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1936DC04237FE48B00F56D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1936DC07237FE48B00F56D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1936DC09237FE48E00F56D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1936DC0C237FE48E00F56D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1936DC0E237FE48E00F56D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1936DC18237FE60000F56D40 /* Qna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qna.swift; sourceTree = "<group>"; };
+		1979BA4F23816119002504C6 /* QnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		1936DBFF237FE48B00F56D40 /* QNA */ = {
 			isa = PBXGroup;
 			children = (
+				1936DC18237FE60000F56D40 /* Qna.swift */,
 				1936DC00237FE48B00F56D40 /* AppDelegate.swift */,
 				1936DC02237FE48B00F56D40 /* SceneDelegate.swift */,
-				1936DC04237FE48B00F56D40 /* ViewController.swift */,
 				1936DC06237FE48B00F56D40 /* Main.storyboard */,
 				1936DC09237FE48E00F56D40 /* Assets.xcassets */,
 				1936DC0B237FE48E00F56D40 /* LaunchScreen.storyboard */,
 				1936DC0E237FE48E00F56D40 /* Info.plist */,
+				1979BA4F23816119002504C6 /* QnaViewController.swift */,
 			);
 			path = QNA;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1936DC05237FE48B00F56D40 /* ViewController.swift in Sources */,
+				1936DC19237FE60000F56D40 /* Qna.swift in Sources */,
 				1936DC01237FE48B00F56D40 /* AppDelegate.swift in Sources */,
 				1936DC03237FE48B00F56D40 /* SceneDelegate.swift in Sources */,
+				1979BA5023816119002504C6 /* QnaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
